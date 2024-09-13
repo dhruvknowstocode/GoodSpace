@@ -6,6 +6,7 @@ import Hotjar from './components/Hotjar';
 import Integrations from './components/Integrations';
 import './App.scss'
 import FeaturesSection from './components/Features';
+import CustomerTestimonials from './components/CustomerTestimonials';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Hotjar />
       <FeaturesSection />
       <Integrations />
+      <CustomerTestimonials />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Extatica';
   src: url('/fonts/Extatica.woff2') format('woff2'),
-       url('/fonts/Extatica.woff') format('woff');
+    url('/fonts/Extatica.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
@@ -82,20 +82,27 @@
     }
 
     input[type="text"] {
-      width: 200px; 
+      width: 200px;
     }
 
     input[type="email"] {
-      width: 300px; 
+      width: 300px;
     }
 
     button {
-      background-color: #0061ff;
+      background: linear-gradient(90deg, #2D56EC 0%, #1AACEA 100%);
       color: white;
       border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
+      padding: 12px 20px;
+      border-radius: 4px;
       cursor: pointer;
+      margin-left: 20px;
+      font-size: 14px;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #0051e6;
+      }
     }
   }
 
@@ -104,10 +111,10 @@
     margin-top: 10px;
     font-size: 14px;
     color: #666;
-    
+
     .dot {
-      margin: 0 8px; 
+      margin: 0 8px;
     }
   }
-  
+
 }

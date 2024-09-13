@@ -7,6 +7,7 @@ import Integrations from './components/Integrations';
 import './App.scss'
 import FeaturesSection from './components/Features';
 import CustomerTestimonials from './components/CustomerTestimonials';
+import TrialSection from './components/TrialSection';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <FeaturesSection />
       <Integrations />
       <CustomerTestimonials />
+      <TrialSection />
     </div>
   )
 }

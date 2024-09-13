@@ -1,0 +1,64 @@
+.integrations {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f1f5f9;
+  
+    h2 {
+      font-size: 36px;
+      color: #2d64ef;
+      margin-bottom: 20px;
+    }
+  
+    .flowchart {
+      margin: 20px 0;
+      max-width: 100%;
+    }
+  
+    .integration-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+  
+      .card {
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+  
+        h3 {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 16px;
+          color: #555;
+          margin-bottom: 10px;
+        }
+  
+        .icon {
+          margin-bottom: 15px;
+        }
+      }
+  
+      .hrms {
+        background: #fdf6f0;
+        border-color: #fdd8b7;
+      }
+  
+      .finance {
+        background: #f3f9f1;
+        border-color: #b6f2b1;
+      }
+  
+      .sso {
+        background: #f3f8ff;
+        border-color: #c0d8ff;
+      }
+    }
+  }
+  

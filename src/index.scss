@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth;
+}
+/* index.css */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure body takes up full height */
+html, body {
+  height: 100%;
+  font-family: 'Inter', sans-serif; /* Global font-family */
+}
+
+/* Set a default background and text color for the whole app */
+body {
+  background-color: #F8FAFC; /* Light background */
+  color: #333; /* Dark text */
+  line-height: 1.6;
+}
+
+/* Basic link styling */
+a {
+  text-decoration: none;
+  color: inherit; /* Keep links the same color as text */
+}
+
+a:hover {
+  color: #2d64ef; /* On hover, change link color */
+}
+
+/* Style buttons globally */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+/* Image responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Simple responsive utility */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

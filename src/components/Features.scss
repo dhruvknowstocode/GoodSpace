@@ -1,0 +1,67 @@
+/* FeaturesSection.css */
+
+.features-section {
+    padding: 60px 20px; /* Adjust padding for spacing */
+    background-color: #f8f9fc;
+    text-align: center;
+  }
+  
+  .features-title {
+    font-size: 28px; /* Make title size bigger to match design */
+    color: #2b61e1; /* Set color to blue */
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+    gap: 40px 20px; /* Spacing between the items */
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px; /* Space between icon and text */
+  }
+  
+  .feature-icon {
+    width: 32px; /* Set icon width */
+    height: 32px; /* Set icon height */
+  }
+  
+  .feature-title {
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 25.2px;
+    font-size: 18px;
+    color: #343a40;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .feature-title .badge {
+    background-color: #EBA31C33;
+    color:#EBA31C;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 2px;
+    margin-left: 10px;
+  }
+  
+  .feature-description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.68px;
+    font-size: 14px;
+    color: #6c757d;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,68 @@
+.header {
+  width: 100%;
+  height: 68px;
+  padding: 12px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--300, #CBD5E1);
+  background: linear-gradient(180deg, #e3f0f9 100%, #f8fafc 100%); 
+  
+  .container {
+    max-width: 1336px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    // Adjust these values based on the Figma design
+    img {
+      height: 20px; // Adjust the height as per your design
+      width: auto; // Adjust width if necessary
+      display: block;
+    }
+  }
+
+  .nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+
+      li a {
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #64748B;
+        text-decoration: none;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #2d64ef;
+        }
+      }
+    }
+  }
+
+  .btn-start-trial {
+    background: linear-gradient(90deg, #2D56EC 0%, #1AACEA 100%);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #0051e6;
+    }
+  }
+}

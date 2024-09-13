@@ -1,0 +1,32 @@
+/* app.css */
+
+/* Main container for the whole app */
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* A simple header section */
+  .app-header {
+    background-color: #0061ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* For the main content area */
+  .app-main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* For the footer */
+  .app-footer {
+    background-color: #2d64ef;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  

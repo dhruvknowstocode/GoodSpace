@@ -5,12 +5,12 @@
   
     h2 {
       font-size: 36px;
-      color: #2d64ef;
-      margin-bottom: 20px;
+      background: linear-gradient(90.16deg, #2D56EC 0.21%, #1AACEA 100.08%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   
     .flowchart {
-      margin: 20px 0;
       max-width: 100%;
     }
   
@@ -25,7 +25,7 @@
         border: 1px solid #ccc;
         border-radius: 10px;
         padding: 20px;
-        width: 300px;
+        width: 350px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         text-align: left;
   

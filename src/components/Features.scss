@@ -8,7 +8,9 @@
   
   .features-title {
     font-size: 28px; /* Make title size bigger to match design */
-    color: #2b61e1; /* Set color to blue */
+    background: linear-gradient(90.16deg, #2D56EC 0.21%, #1AACEA 100.08%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     margin-bottom: 40px;
     font-weight: 600;
   }

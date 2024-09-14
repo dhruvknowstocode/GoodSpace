@@ -10,21 +10,21 @@ const testimonials = [
     name: 'Rohit Mehra',
     title: 'CFO, XYZ',
     text: 'ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No more unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.',
-    image: rohit, // Replace with actual path
+    image: rohit, 
     cardClass: 'card-1'
   },
   {
     name: 'Alan Turing',
     title: 'CFO, XYZ',
     text: 'ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No more unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.',
-    image: alan, // Replace with actual path
+    image: alan,
     cardClass: 'card-2'
   },
   {
     name: 'Mark Jacob',
     title: 'CEO, XYZ',
     text: 'ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No more unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.',
-    image: mark, // Replace with actual path
+    image: mark, 
     cardClass: 'card-3'
   }
 ];

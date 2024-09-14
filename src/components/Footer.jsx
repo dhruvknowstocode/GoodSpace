@@ -24,10 +24,10 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <ul className="footer-nav">
-          <li><a href="#">Blogs</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Integrations</a></li>
+          <li><a href="#blog">Blogs</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#integrations">Integrations</a></li>
         </ul>
         <p>Copyright © 2024 • ExpenseBook</p>
       </div>

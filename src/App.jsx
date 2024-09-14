@@ -8,6 +8,7 @@ import './App.scss'
 import FeaturesSection from './components/Features';
 import CustomerTestimonials from './components/CustomerTestimonials';
 import TrialSection from './components/TrialSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Integrations />
       <CustomerTestimonials />
       <TrialSection />
+      <Footer />
     </div>
   )
 }

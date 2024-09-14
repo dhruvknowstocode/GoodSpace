@@ -1,0 +1,104 @@
+.footer {
+    background-color: #f4f7fc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      max-width: 1200px;
+      padding: 20px 0;
+      
+      .footer-logo {
+        flex: 1;
+        img {
+          width: 150px; /* Adjust size if needed */
+        }
+      }
+  
+      .footer-contact {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 330px; /* Adjust this value for more/less spacing */
+
+        .footer-info {
+          display: flex;
+          flex-direction: column;
+          p {
+            display: flex;
+            color: var(--500, rgba(100, 116, 139, 1));
+            align-items: center;
+            gap: 10px; /* Space between icon and text */
+            font-size: 14px;
+            margin: 5px 0;
+            
+            i {
+              color: #1353dd;
+              font-size: 18px;
+            }
+          }
+        }
+  
+        .footer-social {
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          
+          span {
+            color: var(--500, rgba(100, 116, 139, 1));
+            margin-right: 10px;
+            font-size: 14px;
+          }
+  
+          a {
+            font-size: 18px;
+            color: #1353dd;
+            &:hover {
+              color: #2d56ec;
+            }
+          }
+        }
+      }
+    }
+  
+    .footer-bottom {
+        border-top: 1px solid #e0e0e0;
+        width: 90%;
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;  // Aligns children to the left and right
+        align-items: center;
+        padding: 50px 5%;  // Add padding on both sides
+    
+        .footer-nav {
+            display: flex;
+            gap: 25px; // Adjust the gap between the items
+    
+            li {
+                list-style: none;
+    
+                a {
+                    text-decoration: none;
+                    color: #64748b;
+                    font-size: 14px;
+                    &:hover {
+                        color: #1353dd;
+                    }
+                }
+            }
+        }
+    
+        p {
+            font-size: 12px;
+            color: #64748b;
+            margin: 0; // Remove any default margin
+        }
+    }    
+}

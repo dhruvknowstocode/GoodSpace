@@ -8,6 +8,7 @@
     background: linear-gradient(90.16deg, #2D56EC 0.21%, #1AACEA 100.08%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 40px; /* Add margin here */
   }
 
   .flowchart {
@@ -63,5 +64,16 @@
       background: #f3f8ff;
       border-color: #c0d8ff;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 20px;
+    margin-bottom: 30px; 
+  }
+
+  .flowchart {
+    display: none;
   }
 }
